@@ -1,0 +1,2300 @@
+*{
+    font-family: 'Comic Neue', cursive;
+            font-weight:600 ;
+}
+/* Estructura del pokedex */
+    /* Estructura Izquierda */
+        /* Estructura base */
+            article.baseDeLaPokedex{
+                width: 650px; 
+                height: 675px; 
+                border: 3px solid #990500;
+                background: #990500;
+                z-index: 3;
+                position:absolute ;
+                border-radius: 50px 0px 0px 50px;
+                border-color: black;
+                border-width: 3px;
+            }
+
+            article.baseDeLaPokedexSuperior{
+                width: 659px; 
+                height: 665px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 4;
+                position: absolute;
+                top: 8px;
+                right: 680px;
+                border-radius: 50px 10px 0px 50px;
+                border-color: black;
+                border-width: 3px;
+            }
+        /* Estructura base */
+
+        /* Botones superiores */
+            article.botonSuperiorRojo {
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 8;
+                border-color:black;
+                border-width: 3px;
+                top: 20px;
+                right: 1200px;
+            }
+
+            article.botonSuperiorAmarillo {
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background: #F5FF13;
+                border: solid;
+                position: absolute;
+                z-index: 8;
+                border-color:black;
+                border-width: 3px;
+                top: 20px;
+                right: 1150px;
+            }
+
+            article.botonSuperiorVerde {
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background: #6BEF2C;
+                border: solid;
+                position: absolute;
+                z-index: 8;
+                border-color:black;
+                border-width: 3px;
+                top: 20px;
+                right: 1100px;
+            }
+
+            article.camara {
+                width: 70px;
+                height: 70px;
+                border-radius: 100%;
+                background: #06FAFB;
+                border: solid;
+                position: absolute;
+                z-index: 8;
+                border-color:black;
+                border-width: 3px;
+                top: 22px;
+                right: 1237px;
+            }
+
+            article.baseDeCamara {
+                width: 85px;
+                height: 85px;
+                border-radius: 100%;
+                background: #F1FCF8;
+                border: solid;
+                position: absolute;
+                z-index: 7;
+                border-color:black;
+                border-width: 3px;
+                top: 18px;
+                right: 1231px;
+            }
+        /* Botones Superiores */
+
+        /* Pantalla principal de la pokedex */
+            article.baseCamara1{
+                width: 520px; 
+                height: 330px; 
+                border: 3px solid;
+                background: #696969;
+                z-index: 6;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 170px;
+                right: 790px;
+                border-radius: 20px 20px 20px 0px;
+            }
+
+            article.baseCamara2{
+                width: 512px; 
+                height: 322px; 
+                border: 3px solid;
+                background: #B1B1B1;
+                z-index: 6;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 170px;
+                right: 790px;
+                border-radius: 20px 20px 20px 0px;
+            }
+
+            article.pantalla{
+                width: 460px; 
+                height: 240px; 
+                border: 3px solid;
+                background: white;
+                z-index: 7;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 200px;
+                right: 810px;
+                border-radius: 15px 15px 15px 15px;
+            }
+
+            article.botonSuperiorPantalla1{
+                width: 12px;
+                height: 12px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 7;
+                border-color:black;
+                border-width: 3px;
+                top: 180px;
+                right: 1070px;
+            }
+            
+            article.botonSuperiorPantalla2{
+                width: 12px;
+                height: 12px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 7;
+                border-color:black;
+                border-width: 3px;
+                top: 180px;
+                right: 1030px;
+            }
+            
+            article.botonInferiorPantalla{
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 7;
+                border-color:black;
+                border-width: 3px;
+                top: 450px;
+                right: 1215px;
+            }
+            
+            article.baseCortada1{
+                width: 0px;
+                height: 0px;
+                border-right: 40px solid transparent;
+                border-top: 40px solid transparent;
+                border-left: 40px solid #696969;
+                border-bottom: 40px solid #696969;
+                position: absolute;
+                z-index: 7;
+                top: 424px;
+                right: 1230px;    
+            } 
+
+            article.baseCortada2{
+                width: 0px;
+                height: 0px;
+                border-right: 40px solid transparent;
+                border-top: 40px solid transparent;
+                border-left: 40px solid #FB0605;
+                border-bottom: 40px solid #FB0605;
+                position: absolute;
+                z-index: 7;
+                top: 430px;
+                right: 1236px;    
+            } 
+            
+            article.baseSombra1{
+                width: 0px;
+                height: 0px;
+                border-right: 105px solid black;
+                border-top: 1px solid black;
+                border-left: 1px solid black;
+                border-bottom: 1px solid black;
+                position: absolute;
+                z-index: 7;
+                top: 466px;
+                right: 1225px;  
+                transform: rotate(45deg);  
+            } 
+            
+            article.baseSombra2{
+                width: 0px;
+                height: 0px;
+                border-right: 102px solid black;
+                border-top: 1px solid black;
+                border-left: 1px solid black;
+                border-bottom: 1px solid black;
+                position: absolute;
+                z-index: 7;
+                top: 460px;
+                right: 1220px;  
+                transform: rotate(45deg);  
+            } 
+
+            article.bocina1{
+                width: 180px; 
+                height: 5px; 
+                background: black;
+                z-index: 9;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 450px;
+                right: 820px;
+                border-radius: 20px 20px 20px 20px;
+            }
+
+            article.bocina2{
+                width: 180px; 
+                height: 5px; 
+                background: black;
+                z-index: 9;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 460px;
+                right: 820px;
+                border-radius: 20px 20px 20px 20px;
+            }
+
+            article.bocina3{
+                width: 180px; 
+                height: 5px; 
+                background: black;
+                z-index: 9;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 470px;
+                right: 820px;
+                border-radius: 20px 20px 20px 20px;
+            }
+
+            article.bocina4{
+                width: 180px; 
+                height: 5px; 
+                background: black;
+                z-index: 9;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 480px;
+                right: 820px;
+                border-radius: 20px 20px 20px 20px;
+            }
+        /* Pantalla Principal de la pokedes */
+
+        /* Botones Inferiores */
+            article.botonAzul1{
+                width: 38px;
+                height: 38px;
+                border-radius: 100%;
+                background: #2C7DFD;
+                border: solid;
+                position: absolute;
+                z-index: 8;
+                border-color:black;
+                border-width: 3px;
+                top: 507px;
+                right: 1245px;
+            }
+
+            article.botonAzul2{
+                width: 44px;
+                height: 44px;
+                border-radius: 100%;
+                background: #1937B0;
+                border: solid;
+                position: absolute;
+                z-index: 7;
+                border-color:black;
+                border-width: 3px;
+                top: 507px;
+                right: 1245px;
+            }
+
+            article.botonAmarillo1{
+                width: 80px; 
+                height: 15px; 
+                background: #4DFD03;
+                z-index: 9;
+                border: solid;
+                position:absolute;
+                border-color: black;
+                border-width: 2.5px;
+                top: 520px;
+                right: 1140px;
+                border-radius: 20px 20px 20px 20px;
+            }
+
+            article.botonAmarillo2{
+                width: 84px; 
+                height: 20px; 
+                background: #1C711E;
+                z-index: 8;
+                border: solid;
+                position:absolute;
+                border-color: black;
+                border-width: 2.5px;
+                top: 520px;
+                right: 1141px;
+                border-radius: 20px 20px 20px 20px;
+            }
+
+            article.botonNaranja1{
+                width: 80px; 
+                height: 15px; 
+                background: #F76603;
+                z-index: 9;
+                border: solid;
+                position:absolute;
+                border-color: black;
+                border-width: 2.5px;
+                top: 520px;
+                right: 1030px;
+                border-radius: 20px 20px 20px 20px;
+            }
+
+            article.botonNaranja2{
+                width: 84px; 
+                height: 20px; 
+                background: #A20D12;
+                z-index: 8;
+                border: solid;
+                position:absolute;
+                border-color: black;
+                border-width: 2.5px;
+                top: 520px;
+                right: 1031px;
+                border-radius: 20px 20px 20px 20px;
+            }
+
+            article.pantallaAmarilla{
+                width: 190px; 
+                height: 80px; 
+                border: 3px solid;
+                background: #FCFB04;
+                z-index: 7;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                top: 560px;
+                right: 1030px;
+                border-radius: 15px 15px 15px 15px;
+            }
+
+            /* Flechas de Navegacion */
+                article.rectanguloSuperior{
+                    width: 30px; 
+                    height:45px; 
+                    border: 3px solid;
+                    background: #096267;
+                    z-index: 9;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 165px;
+                    right: 60px;
+                    border-radius: 15px 15px 0px 0px;
+                    border-bottom: transparent;
+                }
+
+                article.rectanguloInferior{
+                    width: 30px; 
+                    height:45px; 
+                    border: 3px solid;
+                    background: #096267;
+                    z-index: 9;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 245px;
+                    right: 60px;
+                    border-radius: 0px 0px 15px 15px;
+                    border-top: transparent;
+                }
+
+                article.rectanguloLateralIzquierdo{
+                    width: 45px; 
+                    height:30px; 
+                    border: 3px solid;
+                    background: #096267;
+                    z-index: 9;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 210px;
+                    right: 95px;
+                    border-radius: 15px 0px 0px 15px;
+                    border-right: transparent;
+                }
+
+                article.rectanguloLateralDerecho{
+                    width: 45px; 
+                    height:30px; 
+                    border: 3px solid;
+                    background: #096267;
+                    z-index: 9;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 210px;
+                    right: 13px;
+                    border-radius: 0px 15px 15px 0px;
+                    border-left: transparent;
+                }
+
+                article.cuadradoCentral{
+                    width: 34px; 
+                    height:34px; 
+                    background: #096267;
+                    z-index: 9;
+                    position:absolute;
+                    top: 211px;
+                    right: 61px;
+                }
+
+                article.botonFlechaDeNavegacion{
+                    width: 27px;
+                    height: 27px;
+                    border-radius: 100%;
+                    background: #096267;
+                    border: solid;
+                    position: absolute;
+                    z-index: 9;
+                    border-color:black;
+                    border-width: 3px;
+                    top: 211px;
+                    right: 61px;
+                }
+
+                article.rectanguloSuperior2{
+                    width: 30px; 
+                    height:45px; 
+                    border: 3px solid;
+                    background: #0E4B51;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 175px;
+                    right: 70px;
+                    border-radius: 15px 15px 0px 0px;
+                    border-bottom: transparent;
+                }
+
+                article.rectanguloInferior2{
+                    width: 30px; 
+                    height:45px; 
+                    border: 3px solid;
+                    background: #0E4B51;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 255px;
+                    right: 70px;
+                    border-radius: 0px 0px 15px 15px;
+                    border-top: transparent;
+                }
+
+                article.rectanguloLateralIzquierdo2{
+                    width: 45px; 
+                    height:30px; 
+                    border: 3px solid;
+                    background: #0E4B51;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 220px;
+                    right: 105px;
+                    border-radius: 15px 0px 0px 15px;
+                    border-right: transparent;
+                }
+
+                article.rectanguloLateralDerecho2{
+                    width: 45px; 
+                    height:30px; 
+                    border: 3px solid;
+                    background: #0E4B51;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 220px;
+                    right: 23px;
+                    border-radius: 0px 15px 15px 0px;
+                    border-left: transparent;
+                }
+
+                article.cuadradoCentral{
+                    width: 45px; 
+                    height:45px; 
+                    background: #0E4B51;
+                    z-index: 7;
+                    position:absolute;
+                    top: 210px;
+                    right: 60px;
+                }
+
+                div.flechaDeNavegacion{
+                    position: absolute;
+                    right: 840px;
+                    top: 360px;
+                }
+            /* Flechas de Navegacion */
+
+        
+        /* Botones Inferiores */
+     
+        /* Tubo Central */
+            article.elipseBajo{
+                width: 45px;
+                height: 20px;
+                border-radius: 100%;
+                background: #990500;
+                border: solid;
+                position: absolute;
+                z-index: 5;
+                border-color:black;
+                border-width: 3px;
+                top: 663px;
+                right: 680px;
+            }
+
+            article.rectanguloBajo1{
+                width: 45px; 
+                height:30px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 4;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-bottom: transparent;
+                border-top: transparent;
+                border-radius: 6px 6px 0px 0px;
+                top: 645px;
+                right: 679px;
+            }
+
+            article.elipseBajo1{
+                width: 45px;
+                height: 20px;
+                border-radius: 100%;
+                background: #990500;
+                border: solid;
+                position: absolute;
+                z-index: 5;
+                border-color:black;
+                border-width: 3px;
+                top: 663px;
+                right: 680px;
+            }
+
+            article.elipseBajo2{
+                width: 45px;
+                height: 20px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 6;
+                border-color:black;
+                border-width: 4px;
+                border-bottom: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 639px;
+                right: 682px;
+            }
+
+            article.rectanguloBajo2{
+                width: 45px; 
+                height:30px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 5;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-bottom: transparent;
+                border-top: transparent;
+                border-radius: 6px 6px 0px 0px;
+                top: 625px;
+                right: 679px;
+            }
+
+            article.elipseBajo3{
+                width: 45px;
+                height: 20px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 5;
+                border-color:black;
+                border-width: 4px;
+                border-bottom: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 619px;
+                right: 682px;
+            }
+
+            article.rectanguloLargo{
+                width: 45px; 
+                height:590px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 4;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-bottom: transparent;
+                border-top: transparent;
+                border-radius: 6px 6px 0px 0px;
+                top: 42px;
+                right: 679px;
+            }
+
+            article.elipseAlto1{
+                width: 45px;
+                height: 20px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 6;
+                border-color:black;
+                border-width: 4px;
+                border-bottom: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 95px;
+                right: 682px;
+            }
+
+            article.elipseAlto2{
+                width: 45px;
+                height: 20px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 5;
+                border-color:black;
+                border-width: 4px;
+                border-bottom: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 75px;
+                right: 682px;
+            }
+
+            article.elipseAlto3{
+                width: 45px;
+                height: 20px;
+                border-radius: 100%;
+                background: #FB0605;
+                border: solid;
+                position: absolute;
+                z-index: 5;
+                border-color:black;
+                border-width: 4px;
+                border-bottom: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 35px;
+                right: 682px;
+            }
+        
+        /* Tubo Central */
+
+        /* Estructura superior */
+            article.cuadrado1{
+                width: 300px; 
+                height:65px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 6;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 62px;
+                right: 1044px;
+            }
+
+            article.cuadrado2{
+                width: 300px; 
+                height:65px; 
+                border: 3px solid;
+                background: #9B060D;
+                z-index: 5;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                top: 82px;
+                right: 1033px;
+            }
+
+            article.rectanguloLargoLateral{
+                width: 10px; 
+                height:510px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 3;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-bottom: transparent;
+                border-top: transparent;
+                border-radius: 10px 10px 0px 10px;
+                top: 128px;
+                right: 1330px;
+                z-index: 4;
+            }
+
+            article.rectanguAyuda1{
+                width: 9px; 
+                height:80px; 
+                border: 3px solid;
+                background: #9B060D;
+                z-index: 7;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-left: transparent;
+                border-bottom: transparent;
+                border-top: transparent;
+                top: 48px;
+                right: 1341px;
+            }
+
+            article.rectanguAyuda2{
+                width: 10px; 
+                height:17px; 
+                border: 3px solid;
+                background: #9B060D;
+                z-index: 7;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-left: transparent;
+                border-right: transparent;
+                border-radius: 2px 0px 0px 0px;
+                top: 127px;
+                right: 1333px;
+            }
+
+            article.cuadrado3{
+                width: 338px; 
+                height:65px; 
+                border: 3px solid;
+                background: #9B060D;
+                z-index: 4;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 62px;
+                right: 730px;
+                transform: rotate(180deg);
+            }
+
+            article.cuadrado4{
+                width: 320px; 
+                height:65px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 4;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 82px;
+                right: 730px;
+                transform: rotate(180deg);
+            }
+
+            article.rectanguAyuda3{
+                width: 15px; 
+                height:15px; 
+                background: #FB0605;
+                z-index: 5;
+                position:absolute;
+                border-width: 3px;
+                top: 130px;
+                right: 1035px;
+            }
+
+            article.rectanguAyuda4{
+                width: 580px; 
+                height:50px; 
+                background: #FB0605;
+                z-index: 5;
+                position:absolute;
+                border-width: 3px;
+                border: solid black;
+                border-radius: 0px 0px 0px 20px;
+                border-top: transparent;
+                border-right: transparent;
+                top: 610px;
+                right: 750px;
+            }
+
+            article.rectanguAyuda5{
+                width: 30px; 
+                height:575px; 
+                background: #FB0605;
+                z-index: 5;
+                position:absolute;
+                border-width: 3px;
+                border: solid black;
+                border-left: transparent;
+                border-top: transparent;
+                border-bottom: transparent;
+                top: 85px;
+                right: 750px;
+            }
+        /* Estructura Superior */
+
+        /* Decorados */
+            /* Decorado Superior Izquierdo */
+                article.decorado1{
+                    width: 1px; 
+                    height:35px; 
+                    background: #9B060D;
+                    z-index: 5;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 115px;
+                    right: 1150px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado2{
+                    width: 1px; 
+                    height:35px; 
+                    background: #9B060D;
+                    z-index: 5;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 115px;
+                    right: 1145px;
+                    transform: rotate(15deg);
+                }
+                
+                article.decorado3{
+                    width: 1px; 
+                    height:35px; 
+                    background: #9B060D;
+                    z-index: 5;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 115px;
+                    right: 1140px;
+                    transform: rotate(15deg);
+                }
+                
+                article.decorado4{
+                    width: 1px; 
+                    height:35px; 
+                    background: #9B060D;
+                    z-index: 5;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 115px;
+                    right: 1135px;
+                    transform: rotate(15deg);
+                }
+                
+                article.decorado5{
+                    width: 1px; 
+                    height:35px; 
+                    background: #9B060D;
+                    z-index: 5;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 115px;
+                    right: 1130px;
+                    transform: rotate(15deg);
+                }
+                
+                article.decorado6{
+                    width: 1px; 
+                    height:35px; 
+                    background: #9B060D;
+                    z-index: 5;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 115px;
+                    right: 1125px;
+                    transform: rotate(15deg);
+                }
+                
+                article.decorado7{
+                    width: 1px; 
+                    height:35px; 
+                    background: #9B060D;
+                    z-index: 5;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 115px;
+                    right: 1120px;
+                    transform: rotate(15deg);
+                }
+            /* Decorado Superior Izquierdo */
+
+            /* Decorado Superior Derecho */
+                article.decorado8{
+                    width: 1px; 
+                    height:26px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 62px;
+                    right: 1000px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado9{
+                    width: 1px; 
+                    height:25px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 62px;
+                    right: 995px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado10{
+                    width: 1px; 
+                    height:24px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 62px;
+                    right: 990px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado11{
+                    width: 1px; 
+                    height:24px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 62px;
+                    right: 985px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado12{
+                    width: 1px; 
+                    height:24px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 62px;
+                    right: 980px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado13{
+                    width: 1px; 
+                    height:24px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 62px;
+                    right: 975px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado14{
+                    width: 1px; 
+                    height:24px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 62px;
+                    right: 970px;
+                    transform: rotate(15deg);
+                }
+            /* Decoracion Superior Derecha */
+
+            /* Decoracion Inferior Izquierda */
+                article.decorado15{
+                    width: 1px; 
+                    height:23px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 648px;
+                    right: 1340px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado16{
+                    width: 1px; 
+                    height:20px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 655px;
+                    right: 1335px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado17{
+                    width: 1px; 
+                    height:18px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 662px;
+                    right: 1330px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado18{
+                    width: 1px; 
+                    height:16px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 668px;
+                    right: 1325px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado19{
+                    width: 1px; 
+                    height:14px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 670px;
+                    right: 1320px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado20{
+                    width: 1px; 
+                    height:12px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 673px;
+                    right: 1315px;
+                    transform: rotate(15deg);
+                }
+
+                article.decorado21{
+                    width: 1px; 
+                    height:10px; 
+                    background: #9B060D;
+                    z-index: 4;
+                    position:absolute;
+                    border-width: 3px;
+                    border: solid black;
+                    border-left: transparent;
+                    border-top: transparent;
+                    border-bottom: transparent;
+                    top: 675px;
+                    right: 1310px;
+                    transform: rotate(15deg);
+                }
+            /* Decoracion Inferior Izquierda */
+    /* Estructura Izquierda */
+    
+    /* Estructura Derecha */
+
+        /* Estructura base derecha */
+            article.cuadrado5{
+                width: 330px; 
+                height:65px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 3;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 82px;
+                right: 350px;
+                transform: rotate(180deg);
+                transform: rotateX(180deg);
+            }
+    
+            article.cuadrado6{
+                width: 300px; 
+                height:60px; 
+                border: 3px solid;
+                background: #9B060D;
+                z-index: 3;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                border-left: transparent;
+                top: 97px;
+                right: 357px;
+                transform: rotate(180deg);
+                transform: rotateX(180deg);
+            }
+
+            article.cuadrado7{
+                width: 300px; 
+                height:65px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 4;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 115px;
+                right: 370px;
+                transform: rotate(180deg);
+                transform: rotateX(180deg);
+            }
+
+            article.cuadrado8{
+                width: 284px; 
+                height:65px; 
+                border: 3px solid;
+                background: white;
+                z-index: 4;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-left: transparent;
+                border-right: transparent;
+                border-top: transparent;
+                top: 119px;
+                right: 67px;
+                transform: rotate(180deg);
+                transform: rotateY(180deg);
+            }
+    
+            article.cuadrado9{
+                width: 303px; 
+                height:62px; 
+                border: 3px solid;
+                background: #9B060D;
+                z-index: 2.5;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 20px;
+                border-top: transparent;
+                border-left: transparent;
+                top: 158px;
+                right: 67px;
+                transform: rotate(180deg);
+                transform: rotateY(180deg);
+            }
+
+            article.cuadrado10{
+                width: 293px;
+                height:65px; 
+                border: 3px solid;
+                background: #FB0605;
+                z-index: 3;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 10px 100px 0px;
+                border-top: transparent;
+                border-left: transparent;
+                border-right: transparent;
+                top: 135px;
+                right: 68px;
+                transform: rotate(180deg);
+                transform: rotateY(180deg);
+            }
+            
+            article.rectanguloLargo2{
+                width: 18px; 
+                height:555px; 
+                background: #FB0605;
+                z-index: 4;
+                position:absolute;
+                border-width: 3px;
+                border: solid black;
+                border-left: transparent;
+                border-top: transparent;
+                border-bottom: transparent;
+                top: 97px;
+                right: 658px;
+            }
+
+            article.baseDeEstructura2{
+                width: 587px; 
+                height:475px; 
+                background: #FB0605;
+                z-index: -1;
+                position:absolute;
+                border-width: 3px;
+                border: solid black;
+                border-top: transparent;
+                border-radius: 0px 0px 20px 2px;
+                top: 174px;
+                right: 68px;
+            }
+
+            article.baseDeEstructura3{
+                width: 697px; 
+                height:480px; 
+                background: #FB0605;
+                z-index: -2;
+                position:absolute;
+                border-width: 3px;
+                border: solid black;
+                border-radius: 0px 0px 20px 2px;
+                top: 185px;
+                right: 36px;
+            }
+
+            article.rectanguloLargo3{
+                width: 33px; 
+                height: 445px; 
+                border: 3px solid;
+                background: #9B060D;
+                z-index: -2;
+                position:absolute;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 0px 0px 20px 0px;
+                top: 200px;
+                right: 50px;
+            }
+
+            /* Detalles Estructura */ 
+                    article.decorado22{
+                        width: 1px; 
+                        height:20px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 99px;
+                        right: 530px;
+                        transform: rotate(15deg);
+                    }                                      
+                    
+                    article.decorado23{
+                        width: 1px; 
+                        height:20px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 99px;
+                        right: 525px;
+                        transform: rotate(15deg);
+                    }    
+                    
+                    article.decorado24{
+                        width: 1px; 
+                        height:20px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 99px;
+                        right: 520px;
+                        transform: rotate(15deg);
+                    }             
+                    
+                    article.decorado25{
+                        width: 1px; 
+                        height:20px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 99px;
+                        right: 515px;
+                        transform: rotate(15deg);
+                    }                            
+                    
+                    article.decorado26{
+                        width: 1px; 
+                        height:20px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 99px;
+                        right: 510px;
+                        transform: rotate(15deg);
+                    }         
+                    
+                    article.decorado27{
+                        width: 1px; 
+                        height:20px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 99px;
+                        right: 505px;
+                        transform: rotate(15deg);
+                    }                
+                    
+                    article.decorado28{
+                        width: 1px; 
+                        height:20px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 99px;
+                        right: 500px;
+                        transform: rotate(15deg);
+                    }  
+                    
+                    article.decorado29{
+                        width: 1px; 
+                        height:25px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 103px;
+                        right: 390px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado30{
+                        width: 1px; 
+                        height:25px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 107px;
+                        right: 385px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado31{
+                        width: 1px; 
+                        height:25px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 111px;
+                        right: 380px;
+                        transform: rotate(15deg);
+                    }
+                    
+                    article.decorado32{
+                        width: 1px; 
+                        height:29px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 114px;
+                        right: 375px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado33{
+                        width: 1px; 
+                        height:32px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 120px;
+                        right: 370px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado34{
+                        width: 1px; 
+                        height:30px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 130px;
+                        right: 365px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado35{
+                        width: 1px; 
+                        height:30px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 153px;
+                        right: 362px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado36{
+                        width: 1px; 
+                        height:24px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 200px;
+                        right: 85px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado37{
+                        width: 1px; 
+                        height:24px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 200px;
+                        right: 80px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado38{
+                        width: 1px; 
+                        height:24px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 200px;
+                        right: 75px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado39{
+                        width: 1px; 
+                        height:22px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 200px;
+                        right: 70px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado40{
+                        width: 1px; 
+                        height:22px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 200px;
+                        right: 65px;
+                        transform: rotate(15deg);
+                    }
+
+                    article.decorado41{
+                        width: 1px; 
+                        height:40px; 
+                        background: #9B060D;
+                        z-index: 4;
+                        position:absolute;
+                        border-width: 3px;
+                        border: solid black;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        top: 200px;
+                        right: 63px;
+                        transform: rotate(15deg);
+                    }
+                /* Detalle Estructura */
+            /* Estructura Base Derecha */
+
+            /* Pantalla Derecha */
+                article.pantallaVerdeDerecha{
+                    width: 500px; 
+                    height: 200px; 
+                    border: 3px solid;
+                    background: #9BFA86;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 236px;
+                    right: 110px;
+                    border-radius: 15px 15px 15px 15px;
+                }
+
+                article.botonFondo{
+                    width: 450px; 
+                    height: 80px; 
+                    border: 3px solid;
+                    background: #2155B2;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 450px;
+                    right: 130px;
+                    border-radius: 15px 15px 15px 15px;
+                }
+
+                article.botonAzul1{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 455px;
+                    right: 125px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonAzul2{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 455px;
+                    right: 217px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonAzul3{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 455px;
+                    right: 309px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+                
+                article.botonAzul4{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 455px;
+                    right: 401px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonAzul5{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 455px;
+                    right: 493px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonAzul6{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 490px;
+                    right: 125px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonAzul7{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 490px;
+                    right: 217px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonAzul8{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 490px;
+                    right: 309px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+                
+                article.botonAzul9{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 490px;
+                    right: 401px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonAzul10{
+                    width: 85px; 
+                    height: 30px; 
+                    border: solid;
+                    background: #5199FF;
+                    z-index: 8;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 490px;
+                    right: 493px;
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+                article.botonNaranja3{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    background: #FB6504;
+                    border: solid;
+                    position: absolute;
+                    z-index: 8;
+                    border-color:black;
+                    border-width: 3px;
+                    top: 540px;
+                    right: 580px;
+                }    
+
+                article.botonVerde{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    background: #057A04;
+                    border: solid;
+                    position: absolute;
+                    z-index: 8;
+                    border-color:black;
+                    border-width: 3px;
+                    top: 540px;
+                    right: 540px;
+                }
+
+                article.fondoFlecha{
+                    width: 150px; 
+                    height: 50px; 
+                    border: 3px solid;
+                    background: #454645;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 580px;
+                    right: 500px;
+                    border-radius: 15px 15px 15px 15px;
+                }
+
+                article.botonFlechaIzquierda{
+                    width: 57px; 
+                    height: 48px; 
+                    border: 3px solid;
+                    background: #B0B0B0;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 578px;
+                    right: 580px;
+                }
+
+                article.cuadradoFlechaIzquierda{
+                    width: 25px; 
+                    height: 20px; 
+                    background: #FB0604;
+                    z-index: 7;
+                    position:absolute;
+                    top: 55px;
+                    right: 50px;
+                }
+
+                    
+                article.trianguloFlechaIzquierda{
+                    width: 0; 
+                    height: 0; 
+                    z-index: 8;
+                    border-right: 30px solid #FB0604;
+                    border-top: 15px solid transparent;
+                    border-bottom: 20px solid transparent; 
+                    position: absolute;
+                    top: 48px;
+                    right: 75px;
+                }
+
+                div.flechaIzquierda{
+                    position: absolute;
+                    top: 540px;
+                    right: 535px;
+                }
+
+                article.botonFlechaDerecha{
+                    width: 57px; 
+                    height: 48px; 
+                    border: 3px solid;
+                    background: #B0B0B0;
+                    z-index: 7;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 3px;
+                    top: 578px;
+                    right: 500px;
+                }
+
+                article.cuadradoFlechaDerecha{
+                    width: 25px; 
+                    height: 20px; 
+                    background: #FB0604;
+                    z-index: 7;
+                    position:absolute;
+                    top: 55px;
+                    right: 28px;
+                }
+
+                    
+                article.trianguloFlechaDerecha{
+                    width: 0; 
+                    height: 0; 
+                    z-index: 8;
+                    border-left: 30px solid #FB0604;
+                    border-top: 15px solid transparent;
+                    border-bottom: 20px solid transparent; 
+                    position: absolute;
+                    top: 48px;
+                    right: 0px;
+                }
+
+                div.flechaDerecha{
+                    position: absolute;
+                    top: 540px;
+                    right: 505px;
+                    transform: rotate3d(180);
+                }
+
+                article.botonVerde2{
+                    width: 80px; 
+                    height: 15px; 
+                    background: #4DFD03;
+                    z-index: 9;
+                    border: solid;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 2.5px;
+                    top: 52px;
+                    right: 11px;
+                    border-radius: 20px 20px 20px 20px;
+                }
+
+                article.fondoBotonVerde{
+                    width: 84px; 
+                    height: 20px; 
+                    background: #1C711E;
+                    z-index: 8;
+                    border: solid;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 2.5px;
+                    top: 54px;
+                    right: 13px;
+                    border-radius: 20px 20px 20px 20px;
+                }
+
+                div.botonVerde{
+                    position: absolute;
+                    right: 300px;
+                    top: 490px;
+                }
+
+                article.botonNaranja4{
+                    width: 80px; 
+                    height: 15px; 
+                    background: #FB6504;
+                    z-index: 9;
+                    border: solid;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 2.5px;
+                    top: 52px;
+                    right: 11px;
+                    border-radius: 20px 20px 20px 20px;
+                }
+
+                article.fondoBotonNaranja4{
+                    width: 84px; 
+                    height: 20px; 
+                    background: #B50604;
+                    z-index: 8;
+                    border: solid;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 2.5px;
+                    top: 54px;
+                    right: 13px;
+                    border-radius: 20px 20px 20px 20px;
+                }
+
+                div.botonNaranja4{
+                    position: absolute;
+                    right: 200px;
+                    top: 490px;
+                }
+
+                article.botonAmarilloInfderiorDerecho{
+                    width: 80px; 
+                    height: 15px; 
+                    background: #4DFD03;
+                    z-index: 9;
+                    border: solid;
+                    position:absolute;
+                    border-color: black;
+                    border-width: 2.5px;
+                    top: 52px;
+                    right: 11px;
+                    border-radius: 20px 20px 20px 20px;
+                }
+                
+                article.cuadradoFlechaAmarillo{
+                    width: 15px; 
+                    height: 10px; 
+                    background: #FB0604;
+                    z-index: 7;
+                    position:absolute;
+                    top: 55px;
+                    right: 35px;
+                }
+    
+                        
+                article.trianguloFlechaAmarillo{
+                    width: 0; 
+                    height: 0; 
+                    z-index: 8;
+                    border-right: 20px solid #FB0604;
+                    border-top: 10px solid transparent;
+                    border-bottom: 15px solid transparent; 
+                    position: absolute;
+                    top: 48px;
+                    right: 50px;
+                }
+
+                article.fondoFlechaAmarillo{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                    background: #FBEF04;
+                    border: solid;
+                    position: absolute;
+                    z-index: 6;
+                    border-color:black;
+                    border-width: 3px;
+                    top: 37px;
+                    right: 30px;
+                }
+
+                div.botonAmarilloInferiorDerecho{
+                    position: absolute;
+                    top: 500px;
+                    right: 100px;
+                }
+            /* Pantalla Derecha */
+
+        /* Estructura Base Derecha */
+    /* Estructura derecha */
+
+    /* Interactivos */
+        img.pokeImg{
+            position: absolute;
+            z-index: 9;
+            right: 930px;
+            top: 205px;
+            width: 240px;
+            height: 235px;   
+        }
+
+        input.pokeInput{
+            position: absolute;
+            z-index: 10;
+            right: 130px;
+            top: 250px;
+            width: 450px;
+            text-align: center;
+            background-color: transparent;
+            border-color: transparent;
+            color: black;
+            font-size: 20px;   
+        }
+
+        button.buscarPokemon{
+            position: absolute;
+            z-index: 11;
+            right: 130px;
+            top: 539px;
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            border-radius: 50px;
+            background-color: transparent;
+            border-color: black;
+        }
+        
+        output.peso{
+            position: absolute;
+            z-index: 11;
+            right: 100px;
+            top: 540px;
+            font-size: 50px;
+            width: 50px;
+            height: 50px;
+        }
+
+        h3.estadisticas{
+            position: absolute;
+            z-index: 11;
+            right: 310px;
+            top: 260px;
+            color:#9BFA86;
+        }
+
+        p.HP{
+            position: absolute;
+            z-index: 11;
+            right: 560px;
+            top: 280px;
+            color: #9BFA86;
+        }
+
+        p.Attack{
+            position: absolute;
+            z-index: 11;
+            right: 540px;
+            top: 298px;
+            color: #9BFA86;
+        }
+
+        p.Deffense{
+            position: absolute;
+            z-index: 11;
+            right: 525px;
+            top: 316px;
+            color: #9BFA86;
+        }
+
+        p.SAttack{
+            position: absolute;
+            z-index: 11;
+            right: 485px;
+            top: 334px;
+            color: #9BFA86;
+        }
+
+        p.SDeffense{
+            position: absolute;
+            z-index: 11;
+            right: 470px;
+            top: 352px;
+            color: #9BFA86;
+        }
+
+        p.Speed{
+            position: absolute;
+            z-index: 11;
+            right: 545px;
+            top: 370px;
+            color: #9BFA86;
+        }
+
+        p.Tipo{
+            position: absolute;
+            z-index: 11;
+            right: 245px;
+            top: 300px;
+            color: #9BFA86;
+        }
+
+        div.Hp2{
+                position: absolute;
+                z-index: 15;
+                right: 560px;
+                top: 280px;
+                color: #9BFA86;
+                
+        }
+        
+
+        
+                
+
+
+
+
+
+
+                    
+            
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+
+
+
+
+                    
+
+
+
+                    
+                        
+
+
+            
